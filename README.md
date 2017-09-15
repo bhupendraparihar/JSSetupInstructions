@@ -11,4 +11,4 @@ Go to your program directory
 ```
 > yo jasmine
 ```
-This will create the spec runner file and spec directory to write your tests
+This will create the test directory with spec runner file and spec directory to write your tests. Open your test/index.html in browser to run the tests.
