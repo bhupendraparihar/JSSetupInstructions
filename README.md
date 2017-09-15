@@ -15,13 +15,13 @@ Go to your program directory
 This will create the test directory with spec runner file and spec directory to write your tests. Open your test/index.html in browser to run the tests.
 
 ## Karma Setup
-- A browser test runner
--- starting a small web server to serve "client-side" script
--- also serve the "client-side" with the spec
--- server a custom page that will run script file and test file
--- start a browser to load this page
--- reports the results of the tests to the server
--- reports the results to text files, console, or anything else what your server likes.
+* A browser test runner
+* starting a small web server to serve "client-side" script
+* also serve the "client-side" with the spec
+* server a custom page that will run script file and test file
+* start a browser to load this page
+* reports the results of the tests to the server
+* reports the results to text files, console, or anything else what your server likes.
 
 ```
 > npm install -g karma-cli
@@ -46,3 +46,4 @@ Last command will ask for so many options to create your karma configurations
 This will create a file named karma.conf.js, we can do other manipulation to this file directly to change anything.
 ```
 > karma start karma.conf.js
+```
